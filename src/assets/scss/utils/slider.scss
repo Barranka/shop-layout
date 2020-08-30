@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
-        url('/fonts/SFProDisplay-Regular.woff2') format('woff2'),
-        url('/fonts/SFProDisplay-Regular.woff') format('woff');
+        url('~@/assets/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('~@/assets/fonts/SFProDisplay-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

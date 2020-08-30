@@ -1,7 +1,5 @@
 <template>
-  <div>
-
-    <el-container>
+  <div class="body-content">
 
     <!-- Header -->
     <el-header>
@@ -134,8 +132,6 @@
 
       </div>
     </el-footer>
-
-    </el-container>
 
   </div>
 </template>

@@ -21,6 +21,12 @@ body {
   background-color: #E5E5E5;
 }
 
+.body-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .wrapper {
   max-width: 1420px;
   padding: 0 10px;
@@ -84,4 +90,5 @@ body {
 
 .el-main {
   background: #E5E5E5;
+  flex-grow: 1;
 }

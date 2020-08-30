@@ -118,17 +118,20 @@
             </el-menu>
           </div>
 
-          <div class="social-links">
-            <img class="social-links__item" src="@/assets/img/footer/inst.svg" alt="inst">
-            <img class="social-links__item" src="@/assets/img/footer/vk.svg" alt="vk">
-            <img class="social-links__item" src="@/assets/img/footer/face.svg" alt="face">
-          </div>
+          <div class="links">
+            <div class="social-links">
+              <img class="social-links__item" src="@/assets/img/footer/inst.svg" alt="inst">
+              <img class="social-links__item" src="@/assets/img/footer/vk.svg" alt="vk">
+              <img class="social-links__item" src="@/assets/img/footer/face.svg" alt="face">
+            </div>
 
-          <div class="mobile-links">
-            <img class="mobile-links__item" src="@/assets/img/footer/app.svg" alt="app">
-            <img class="mobile-links__item" src="@/assets/img/footer/google.svg" alt="google">
+            <div class="mobile-links">
+              <img class="mobile-links__item" src="@/assets/img/footer/app.svg" alt="app">
+              <img class="mobile-links__item" src="@/assets/img/footer/google.svg" alt="google">
+            </div>
           </div>
         </div>
+
       </div>
     </el-footer>
 

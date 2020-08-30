@@ -52,7 +52,7 @@ export default {
           title: 'Название ресторана3',
         },
         {
-          img: '/img/slide1.svg',
+          img: './img/slide1.svg',
           title: 'Название ресторана4',
         }
       ]

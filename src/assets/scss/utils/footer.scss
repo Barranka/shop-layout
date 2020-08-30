@@ -27,6 +27,15 @@
 	}
 }
 
+
+.links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	@media screen and (max-width: $desktopWidth) {
+		flex-direction: column;
+	}
+}
 .social-links {
 	&__item {
 		padding: 10px;

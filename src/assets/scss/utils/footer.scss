@@ -1,0 +1,47 @@
+.el-footer {
+	background: $default-color;
+	min-width: 1400px;
+	min-height: 150px;
+
+}
+.footer {
+	background: $default-color;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.menu {
+	border-bottom: 1px solid #C4C4C4;
+	min-width: 651px;
+	.menu-footer {
+		background: $default-color;
+		font-size: 14px;
+		.menu-footer-item__footer {
+			color: #979797;
+			text-align: center;
+			flex-grow: 1;
+			padding: 0 10px;
+			min-width: 79px;
+		}
+	}
+}
+
+.social-links {
+	&__item {
+		padding: 10px;
+		margin: 15px;
+		cursor: pointer;
+	}
+}
+.mobile-links {
+	display: flex;
+	flex-direction: column;
+	&__item {
+		cursor: pointer;
+	}
+	&__item:first-child {
+		margin: 9px 0;
+
+	}
+}

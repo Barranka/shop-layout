@@ -1,0 +1,114 @@
+.el-header {
+	min-width: 1400px;
+	min-height: 89px;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	min-width: 1130px;
+}
+//Group blocks
+.action-groups {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+	font-size: 18px;
+}
+.group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.log-in__item {
+	margin: 10px;
+}
+.search,.log-in,.basket {
+	padding: 21px;
+	cursor: pointer;
+}
+
+//Address
+.address {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	min-width: 450px;
+}
+.enter-address {
+	margin-left: 10px;
+	&__text {
+		cursor: pointer;
+		font-weight: 600;
+		font-size: 18px;
+	}
+	&__input {
+		font-size: 18px;
+	}
+	.el-input__inner {
+		background: #F5F5F5;
+		border-radius: 5px;
+		min-width: 450px;
+		border: none;
+		top: 56px;
+	    left: 426px;
+	}
+}
+
+.el-scrollbar {
+	background: $default-color;
+	box-shadow: 2px 6px 20px rgba(119, 119, 119, 0.18);
+	border-radius: 5px;
+	min-width: 450px;
+}
+
+//Group 131
+.search__items {
+	display: flex;
+	flex-direction: row;
+}
+//Group 177
+.log-in__items-icon {
+	display: flex;
+	flex-direction: row;
+}
+
+//Basket
+.basket {
+	display: flex;
+	align-items: center;
+
+}
+
+//Component FormAuth
+.el-dropdown-menu {
+	top: 75px;
+	left: 1312px;
+	.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+		background-color: $default-color;
+		color: $design-color;
+	}
+	.el-dropdown-link {
+		cursor: pointer;
+		color: $design-color;
+	}
+	.el-dropdown-menu__item {
+	   font-weight: 600;
+		font-size: 16px;
+	}
+	.el-dropdown-menu__item i {
+		margin-right: 15px;
+	}
+	.el-popper {
+		left: 500px;
+	}
+}

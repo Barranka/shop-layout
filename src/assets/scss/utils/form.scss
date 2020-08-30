@@ -1,0 +1,106 @@
+
+//Title
+.label {
+	font-size: 16px;
+	font-weight: 600;
+	color: #979797;
+}
+
+.el-dialog {
+	border-radius: 10px;
+	&__title {
+		padding: 0 16px;
+		font-weight: 600;
+		font-size: 20px;
+		margin: 20px 0;
+	}
+	&__header {
+		padding-top: 40px;
+	}
+
+	&__body {
+		padding: 30px 35px 50px;
+		.el-form .el-form .el-form--label-top {
+			max-width: 365px;
+		}
+	}
+	&__headerbtn {
+		font-size: 25px;
+		right: 15px;
+		top: 15px;
+	}
+	&__headerbtn &__close {
+		color: #000;
+	}
+}
+
+.el-form {
+	.el-form-item {
+		margin: 15px 0 0;
+	}
+	.el-form-item + .el-form-item {
+		margin-top: 30px;
+	}
+	.el-input {
+		background: #F7F7F7;
+		border-radius: 10px;
+		max-width: 365px;
+		min-height: 41px;
+	}
+	.link-item {
+		font-size: 18px;
+		color: #979797;
+		font-weight: 200;
+		text-align: center;
+		strong {
+			color: #000;
+		}
+	}
+}
+
+
+
+
+//Button
+.btnForm {
+	border: none;
+	background-color: $design-color;
+	border-radius: 10px;
+	min-width: 365px;
+	min-height: 50px;
+	font-size: 20px;
+	margin-bottom: 30px;
+	&:hover {
+		background-color: $design-color;
+	}
+	&:focus {
+		background-color: $design-color;
+	}
+}
+
+//Checkbox
+.checkbox-item {
+	max-width: 300px;
+}
+.text-green {
+	color: $design-color;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: $design-color;
+    border-color: $design-color;
+}
+.el-checkbox__inner:hover {
+    border-color: $design-color;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label {
+    color: $design-color;
+}
+.el-checkbox__input.is-focus .el-checkbox__inner {
+	border-color: $design-color;
+}
+.el-checkbox__label {
+	max-width: 300px;
+	font-size: 14px;
+	color: #979797;
+	margin-top: 20px;
+}

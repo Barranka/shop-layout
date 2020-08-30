@@ -1,0 +1,47 @@
+// Font
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('/fonts/ProximaNova-Regular.woff');
+	src: local('Proxima Nova Regular'), local('Proxima Nova Regular'),
+		url('/fonts/ProximaNova-Regular.woff') format('woff'),
+		url('/fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('/fonts/ProximaNova-Bold.woff');
+	src: local('Proxima Nova Regular'), local('Proxima Nova Regular'),
+		url('/fonts/ProximaNova-Bold.woff') format('woff'),
+		url('/fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+$mainFont                : 'Proxima Nova Rg', Arial, sans-serif;
+
+
+// Size
+$mainFontColor           : #101010;
+$mainFontSize            : 18px;
+$mainFontWeight          : 600;
+$anotherFontWeight       : bold;
+$mainLineHeight          : 1.4;
+
+$desktopWidth            : 1280px;
+$smDesktopWidth          : 980px;
+$tableWidth              : 768px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+
+
+// Main color
+$default-color           : #ffffff;
+$primary-color           : #444ce0;
+$design-color            : #9CCB3B;
+$danger-color            : #fc5c65;
+$warning-color           : #fed330;
+$light-color             : #999999;
+$purple-color            : #8854d0;
